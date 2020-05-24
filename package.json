@@ -1,0 +1,29 @@
+{
+  "name": "todo-graphql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "npx eslint ."
+  },
+  "keywords": [],
+  "author": "lozunoff <andrey.lozunov@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "nodemon": "^2.0.4"
+  }
+}
